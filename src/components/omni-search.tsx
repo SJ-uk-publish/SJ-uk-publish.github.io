@@ -39,7 +39,7 @@ function OptionText({ searchWords, textToHighlight }: OptionTextProps) {
     const text = textToHighlight.substr(start, end - start)
     if (highlight) {
       return (
-        <Box as='mark' bg='transparent' color='ukblue.500'>
+        <Box as='mark' bg='transparent' color='ukblue.500' key={chunk.id}>
           {text}
         </Box>
       )

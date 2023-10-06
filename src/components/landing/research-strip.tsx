@@ -52,7 +52,7 @@ export function ResearchStrip(props: BoxProps) {
             Built and used by leading academic institutes and companies
           </Heading>
           <Text fontSize='xl' color={'slate.700'} py='8' maxW='7xl' mx='auto'>
-            Unikraft's design, performance and security have been extensively developed, evaluated and put into production at leading companies and academic institutes.  The award-winning Unikraft research work has appeared in top-tier research and industry conferences.
+            Unikraft&aposs design, performance and security have been extensively developed, evaluated and put into production at leading companies and academic institutes.  The award-winning Unikraft research work has appeared in top-tier research and industry conferences.
           </Text>
         </Box>
         <SimpleGrid columns={{

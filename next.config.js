@@ -13,6 +13,7 @@ module.exports = () => {
   return plugins.reduce((acc, next) => next(acc), {
     optimizeFonts: true,
     images: {
+      unoptimized: true,
       domains: [
         'avatars.githubusercontent.com',
         'avatars0.githubusercontent.com',
